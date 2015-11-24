@@ -26,8 +26,8 @@ Resources
 Syntax Cheat Sheet
 ------------------
 
-^   Ctrl
-$   Shift
-@   Command / Apple
-~   Option / Alt
-#   Numeric Keypad
+- `^` Ctrl
+- `$` Shift
+- `@` Command / Apple
+- `~` Option / Alt
+- `#` Numeric Keypad
