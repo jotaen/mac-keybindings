@@ -1,0 +1,36 @@
+{
+
+// Custom special chars:
+"~c" = ("insertText:", "©");
+
+// [d]uplicate line
+"^d" = (
+    "selectLine:",
+    "copy:",
+    "moveToEndOfLine:",
+    "insertNewline:",
+    "paste:" );
+
+// Cmd+Ctrl+Up: Move line up
+"@^\UF700" = (
+    "moveToEndOfLine:",
+    "deleteToBeginningOfLine:",
+    "deleteBackward:",
+    "moveToBeginningOfLine:",
+    "insertNewline:",
+    "moveUp:",
+    "yank:" );
+
+// Cmd+Ctrl+Down: Move line down
+"@^\UF701" = (
+    "moveToEndOfLine:",
+    "deleteToBeginningOfLine:",
+    "deleteForward:",
+    "moveToEndOfLine:",
+    "insertNewline:",
+    "yank:" );
+
+// Delete from current cursor position to end of line
+"@\UF728" = (
+    "deleteToEndOfLine:" );
+}
